@@ -25,8 +25,8 @@ export default async (req, res) => {
         },
         line_items: transformedItems,
         mode: "payment",
-        success_url: "http://localhost:3000/success",
-        cancel_url: "http://localhost:3000/basket",
+        success_url: "https://amazon-rozen-2.vercel.app/success",
+        cancel_url: "https://amazon-rozen-2.vercel.app/basket",
         metadata: {
             email, 
             images: JSON.stringify(items.map(item => item.image)),
