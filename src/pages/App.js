@@ -137,9 +137,9 @@ export default class PaymentForm extends React.Component {
 
             <a href="/">
             <div className="">
-            <HashRouter>
+
               <button className="btn btn-primary button mt-3 w-full btn-block align-center justify-center rounded-lg">PAY</button>
-            </HashRouter>                
+              
             </div>
             </a>
           </form>
