@@ -8,7 +8,7 @@ import Footer from '../components/Footer'
 import { loadStripe } from '@stripe/stripe-js'
 import axios from 'axios'
 import { useRouter } from "next/router"
-const stripePromise = loadStripe("pk_test_51IuEdXSBuirvUgxzEwymxISejAjC4QeFZrKgSB798cyNjZpt2dg3tPnuh4KyJo71ZqDhr2E8ya7UsJWT9Wue1dIt00rd4Xek5R");
+const stripePromise = loadStripe("pk_test_51IuM8vSCwLBSaM61Yb6bCHjsJGZxttJI60epJAQkQ3fIEIrI81FOvfRHBYboRX9bqnshsXR1GklypzhxYuY85kP700FD3pDm2fR");
 
 function basket() {
     const router = useRouter()
